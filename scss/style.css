@@ -1,0 +1,331 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  background-color: #F2E8CF;
+}
+
+.encabezado {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-image: url(../assets/img/bambu.jpg);
+  background-size: 100% auto;
+  justify-items: end;
+  padding: 40px 0 40px 0;
+}
+.encabezado #logo {
+  height: 400px;
+  width: auto;
+  background-color: transparent;
+}
+.encabezado #carrito {
+  height: 60px;
+  margin-right: 40px;
+  background-color: transparent;
+}
+.encabezado #carrito:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+.encabezado a {
+  background-color: transparent;
+}
+
+hr {
+  color: #144631;
+  width: 99%;
+}
+
+@media (min-width: 768px) {
+  .nav {
+    margin: 2vw 0 6vw 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav h2 {
+    margin-top: 20px;
+    font-family: "Libre Baskerville", serif;
+    font-size: 3rem;
+    color: #144631;
+  }
+  .nav hr {
+    width: 20vw;
+  }
+  .nav div {
+    margin-top: 6vw;
+    font-family: "Libre Baskerville", serif;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+  .nav div a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #144631;
+    font-size: 1.5rem;
+    padding: 8px;
+  }
+  .nav div a:hover {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+  }
+  .nav div .active {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+  }
+}
+@media (max-width: 768px) {
+  .nav {
+    margin: 2vw 0 6vw 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav h2 {
+    margin-top: 20px;
+    font-family: "Libre Baskerville", serif;
+    font-size: 3rem;
+    color: #144631;
+  }
+  .nav hr {
+    width: 20vw;
+  }
+  .nav div {
+    margin-top: 6vw;
+    font-family: "Libre Baskerville", serif;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+  }
+  .nav div a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #144631;
+    font-size: 1.5rem;
+    margin: 20px;
+  }
+  .nav div a:hover {
+    color: black;
+  }
+}
+
+.titulo {
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Libre Baskerville", serif;
+  color: #F2E8CF;
+  padding: 20px 0 20px 0;
+  background-color: #144631;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .main_dishes {
+    margin: 2vw 0 0 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .main_dishes div {
+    display: flex;
+  }
+  .main_dishes div small {
+    font-size: 1vw;
+  }
+  .main_dishes div img {
+    width: 25vw;
+    border-radius: 10%;
+    margin: 10px;
+    border: 5px solid #144631;
+  }
+  .main_dishes div div {
+    display: flex;
+    flex-direction: column;
+  }
+  .main_dishes div div h3 {
+    font-family: "Libre Baskerville", serif;
+    color: #144631;
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin: 20px 0 0 0;
+    line-height: 35px;
+  }
+  .main_dishes div div hr {
+    width: 95%;
+    margin-left: 0;
+  }
+  .main_dishes div div p {
+    font-family: "Libre Baskerville", serif;
+    font-size: 1em;
+    line-height: 25px;
+  }
+  .main_dishes div div input {
+    background-color: #144631;
+    color: #F2E8CF;
+    font-size: 1.3rem;
+    font-family: "Libre Baskerville", serif;
+    position: inherit;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .main_dishes {
+    margin: 2vw 0 0 0;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .main_dishes div {
+    display: flex;
+  }
+  .main_dishes div small {
+    font-size: 1vw;
+  }
+  .main_dishes div img {
+    width: 100%;
+    height: fit-content;
+    border-radius: 10%;
+    margin: 10px;
+    border: 5px solid #144631;
+  }
+  .main_dishes div div {
+    display: flex;
+    flex-direction: column;
+  }
+  .main_dishes div div h3 {
+    font-family: "Libre Baskerville", serif;
+    color: #144631;
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin: 20px 0 0 0;
+    line-height: 35px;
+  }
+  .main_dishes div div hr {
+    width: 95%;
+    margin-left: 0;
+  }
+  .main_dishes div div p {
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.2rem;
+    line-height: 25px;
+  }
+  .main_dishes div div input {
+    background-color: #144631;
+    color: #F2E8CF;
+    font-size: 1.3rem;
+    font-family: "Libre Baskerville", serif;
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+
+.anuncio {
+  background-image: url(../assets/img/combo1.jpg);
+  background-size: 100% 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+}
+.anuncio h2 {
+  color: #F2E8CF;
+  font-family: "Libre Baskerville", serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  background-color: rgba(20, 70, 49, 0.8509803922);
+  text-align: center;
+  line-height: 2;
+  padding: 10px;
+}
+
+footer {
+  background-color: #144631;
+  width: 100%;
+  height: auto;
+  padding: 10px 0 10px 0;
+}
+footer h2 {
+  text-align: center;
+  background-color: transparent;
+  color: #F2E8CF;
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.7rem;
+}
+footer div {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #144631;
+}
+footer div img,
+footer div a {
+  height: 80%;
+  background-color: transparent;
+}
+footer div img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}/*# sourceMappingURL=style.css.map */
