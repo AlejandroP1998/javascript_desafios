@@ -10,36 +10,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
-    <title>Lazy Restaurant - Bebidas</title>
+    <title>Lazy Restaurant</title>
 </head>
 
 <body>
     <header class="encabezado">
         <a href="./inicio.html"><img src="../assets/img/logo.png" alt="perezoso" id="logo"></a>
-        <a href="../layout/carrito.html"><img src="../assets/img/carrito-de-compras.png" alt="carrito" id="carrito"></a>
+        <a href="./carrito.html"><img src="../assets/img/carrito-de-compras.png" alt="carrito" id="carrito"></a>
     </header>
 
     <nav class="nav">
-        <h2>Nuestro menú</h2>
+        <h2 id="bienvenida"></h2>
         <hr>
         <div>
-            <li><a href="./entradas.html">Entradas</a></li>
-            <li><a href="./postres.html">Postres</a></li>
-            <li><a href="./banquetes.html">Banquetes</a></li>
-            <li><a href="./especialidades.html">Especialidades</a></li>
-            <li><a class="active" href="./bebidas.html">Bebidas</a></li>
+            <li><a href="./entradas.html" target="_blank">Entradas</a></li>
+            <li><a href="./postres.html" target="_blank">Postres</a></li>
+            <li><a href="./banquetes.html" target="_blank">Banquetes</a></li>
+            <li><a href="./especialidades.html" target="_blank">Especialidades</a></li>
+            <li><a href="./bebidas.html" target="_blank">Bebidas</a></li>
         </div>
     </nav>
 
     <hr>
-    <hr>
-    <h1 class="titulo">Bebidas</h1>
-    <hr>
-    <hr>
 
     <section class="main_dishes combos">
-        <!-- Datos implementados desde menuBe.js -->
+        <!-- Datos implementados desde menu.js -->
     </section>
+    <hr>
+
+    <section class="anuncio">
+        <h2>Platillos italianos<br>de alta cocina</h2>
+    </section>
+
     <hr>
 
     <footer>
@@ -49,13 +51,11 @@
                     alt="facebook"></a>
             <a href="https://www.instagram.com/alejo_perez_98/" target="_blank"><img src="../assets/img/instagram.png"
                     alt="instagram"></a>
-            <a href="https://wa.me/50256276439" target="_blank"><img src="../assets/img/whatsapp.png"
-                    alt="whatsapp"></a>
+            <a href="https://wa.me/50256276439" target="_blank"><img src="../assets/img/whatsapp.png" alt="whatsapp"></a>
         </div>
     </footer>
-
     <script src="../js/data.js"></script>
-    <script src="../js/menuBe.js"></script>
+    <script src="../js/menu.js"></script>
 </body>
 
 </html>

@@ -59,7 +59,7 @@ hr {
         }
 
         hr {
-            width: 20vw;
+            width: 90%;
         }
 
         div {
@@ -137,12 +137,12 @@ hr {
     }
 }
 
-.titulo{
+.titulo {
     text-align: center;
     font-size: 4rem;
     font-family: 'Libre Baskerville', serif;
     color: #F2E8CF;
-    padding: 20px 0 20px 0 ;
+    padding: 20px 0 20px 0;
     background-color: #144631;
     text-transform: uppercase;
 }
@@ -185,18 +185,18 @@ hr {
                     margin-left: 0;
                 }
 
-                p{
+                p {
                     font-family: 'Libre Baskerville', serif;
                     font-size: 1em;
                     line-height: 25px;
                 }
 
-                input{
+                input {
                     background-color: #144631;
                     color: #F2E8CF;
                     font-size: 1.3rem;
                     font-family: 'Libre Baskerville', serif;
-                    position:inherit;
+                    position: inherit;
                     width: 100%;
                 }
 
@@ -242,13 +242,13 @@ hr {
                     margin-left: 0;
                 }
 
-                p{
+                p {
                     font-family: 'Libre Baskerville', serif;
                     font-size: 1.2rem;
                     line-height: 25px;
                 }
 
-                input{
+                input {
                     background-color: #144631;
                     color: #F2E8CF;
                     font-size: 1.3rem;
@@ -317,4 +317,108 @@ footer {
         }
     }
 
+}
+
+.fondoLogin {
+    background-image: url(../assets/img/bambu.jpg);
+    background-size: 100vh 100%;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        width: 30vw;
+        background-color: transparent;
+
+    }
+
+    form {
+        font-family: 'Libre Baskerville', serif;
+        font-size: 2vw;
+        line-height: 3vw;
+        background-color: #144631;
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        padding: 10px;
+
+        label {
+            font-family: 'Libre Baskerville', serif;
+            font-size: 1em;
+            background-color: #144631;
+            color: #F2E8CF;
+        }
+
+        input,
+        select {
+            font-family: 'Libre Baskerville', serif;
+            font-size: 1em;
+            background-color: #F2E8CF;
+            margin-bottom: 10px;
+        }
+
+        #enviar {
+            margin-top: 10px;
+        }
+    }
+}
+
+.datos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 3rem;
+    line-height: 70px;
+    color: #144631;
+
+    h2 {
+        padding-left: 5vw;
+    }
+}
+
+#tituloC {
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 3rem;
+    color: #fff;
+    padding: 40px 0 40px 0;
+    text-transform: uppercase;
+    width: 100%;
+    background-color: #144631;
+
+}
+
+.costos{
+    font-family: 'Libre Baskerville', serif;
+    width: 100%;
+    height: auto;
+    font-size: 3rem;
+    line-height: 100px;
+    color: #fff;
+    h2{
+        background-color: #144631;
+        text-align: center;
+    }
+}
+
+.ordenar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    a{
+        padding: 30px 0 30px 0;
+        width: 100vw;
+        background-color: red;
+        color: #F2E8CF;
+        text-align: center;
+        text-decoration: none;
+        font-size: 3rem;
+        font-family: 'Libre Baskerville', serif;
+    }
 }
