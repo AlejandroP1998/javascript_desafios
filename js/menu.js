@@ -1,4 +1,5 @@
 const cliente = JSON.parse(localStorage.cliente);
+console.log(cliente);
 const comida = JSON.parse(localStorage.carrito);
 console.log(comida);
 

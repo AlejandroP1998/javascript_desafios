@@ -59,7 +59,7 @@ enviar.onclick = () => {
         //array de compras en el carrito
         let carrito = [];
         localStorage.setItem("carrito", JSON.stringify(carrito));
-        location.href = "../layout/inicio.html";
+        location.href = "./layout/inicio.html";
     }
 
 }

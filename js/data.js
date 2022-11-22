@@ -21,7 +21,7 @@ const entr2 = new menu(6,"Ensalada",50.00,"Ensalada variedad de vegetales, con s
 const entr3 = new menu(7,"Sopa de tomate",100.00,"Sopa de tomate con variedad de especias.","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcyx3TMBVmXZHASnL_7IzNubX2NvSXIN_jcO29yZeh-ZyI4CkV");
 const entr4 = new menu(8,"Koctel de frutas",150.00,"Variedad de frutas con miel de abeja pura.","https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS0KS_aQuCaLLmqjv5oeAt_0Bt0BUtJNtBUMyz9FaWVhwhvvEkE");
 const post1 = new menu(9,"Pie de manzana",130.50,"Pie de manzana, especialidad del chef.(4 porciones)","https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQEj3Lfa4zduBrskryNazTsuf0PHK8Q2OB_TUOwNPSqg2StwQ1w");
-const post2 = new menu(10,"Rollos de canela",250.00,"Deliciosos rollos de canela con variedad de salsas dulces.(4 rollos)","https://pbs.twimg.com/media/Fejs5IQXEAEos1f?format=jpg&name=large");
+const post2 = new menu(10,"Rollos de canela",250.00,"Deliciosos rollos de canela con variedad de salsas dulces.(4 rollos)","https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTlrhN9MUvQAclB-Yn4iOLRqqPco-PuW9bLGo2VqoPupOrtzHGF");
 const post3 = new menu(11,"Pie de queso",215.00,"Pie de queso, especialidad del chef.(4 porciones)","https://static.onecms.io/wp-content/uploads/sites/21/2017/03/29/pay-de-queso-al-horno.jpg-2000.jpg");
 const post4 = new menu(12,"Pie de frutos rojos",250.00,"Pie de frutos rojos, especialidad del chef.(4 porciones)","https://crudoycocido.com/wp-content/uploads/2022/02/PIE-FRUTOS-ROJOS-27-1.jpg");
 const banq1 = new menu(13,"Pollo entero asado",1110.50,"Pollo entero asado al carbon, con ensalada y jarra de la bebida de su elección.","https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSM0Orza6_4U4YAM-oRXYlNuk2T5YpiesIB_8HZOuF_Pnrv_ocq");
