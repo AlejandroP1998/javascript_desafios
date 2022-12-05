@@ -1,9 +1,5 @@
 @import 'reset';
 
-* {
-    background-color: #F2E8CF;
-}
-
 .encabezado {
     height: auto;
     width: 100%;
@@ -83,12 +79,6 @@ hr {
                 border-radius: 8px;
                 padding: 8px;
             }
-
-            .active {
-                border: 1px solid black;
-                border-radius: 8px;
-                padding: 8px;
-            }
         }
     }
 
@@ -145,6 +135,12 @@ hr {
     padding: 20px 0 20px 0;
     background-color: #144631;
     text-transform: uppercase;
+}
+
+.botonL {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 .main_dishes {
@@ -261,28 +257,6 @@ hr {
     }
 }
 
-.anuncio {
-    background-image: url(../assets/img/combo1.jpg);
-    background-size: 100% 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: start;
-
-    h2 {
-        color: #F2E8CF;
-        font-family: 'Libre Baskerville', serif;
-        font-size: 2rem;
-        text-transform: uppercase;
-        margin-bottom: 20px;
-        background-color: #144631d9;
-        text-align: center;
-        line-height: 2;
-        padding: 10px;
-    }
-}
-
 footer {
     background-color: #144631;
     width: 100%;
@@ -393,25 +367,27 @@ footer {
 
 }
 
-.costos{
+.costos {
     font-family: 'Libre Baskerville', serif;
     width: 100%;
     height: auto;
     font-size: 3rem;
     line-height: 100px;
     color: #fff;
-    h2{
+
+    h2 {
         background-color: #144631;
         text-align: center;
     }
 }
 
-.ordenar{
+.ordenar {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    a{
+
+    button {
         padding: 30px 0 30px 0;
         width: 100vw;
         background-color: red;
@@ -420,5 +396,71 @@ footer {
         text-decoration: none;
         font-size: 3rem;
         font-family: 'Libre Baskerville', serif;
+    }
+}
+
+.filtro {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    label {
+        font-family: 'Libre Baskerville', serif;
+        color: #144631;
+        font-size: 3rem;
+    }
+
+    select {
+        border-radius: 8px;
+        font-size: 1.5rem;
+        background-color: #144631;
+        color: #F2E8CF;
+    }
+}
+
+.icono {
+    width: 5vw;
+}
+
+#botonesSR {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    img {
+        width: 2vw;
+        height: auto;
+        border: 0;
+    }
+
+    img:hover {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    p{
+        font-size: 1.5vw;
+    }
+}
+
+.cB{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    button{
+        width: 40vw;
+        font-family: 'Libre Baskerville', serif;
+        font-size: 3vw;
+    }
+    #vaciar{
+        background-color: red;
+        color: #fff;
+    }
+    #regresar{
+        background-color: #144631;
+        color: #fff;
+        text-align: center;
     }
 }

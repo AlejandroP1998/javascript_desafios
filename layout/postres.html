@@ -24,7 +24,7 @@
         <hr>
         <div>
             <li><a href="./entradas.html">Entradas</a></li>
-            <li><a class="active" href="./postres.html">Postres</a></li>
+            <li><a href="./inicio.html">Inicio</a></li>
             <li><a href="./banquetes.html">Banquetes</a></li>
             <li><a href="./especialidades.html">Especialidades</a></li>
             <li><a href="./bebidas.html">Bebidas</a></li>
@@ -35,6 +35,19 @@
     <hr>
     <h1 class="titulo">Postres</h1>
     <hr>
+    <hr>
+
+    <form class="filtro">
+        <label>Filtro</label>
+        <select name="filtro" id="filtro">
+            <option value="Seleccionar" selected disabled hidden>Seleccionar</option>
+            <option value="Pie">Pies</option>
+            <option value="Especialidad">Especialidades</option>
+            <option value="Helado">Helados</option>
+            <option value="Sin filtro">Sin filtro</option>
+        </select>
+    </form>
+
     <hr>
 
     <section class="main_dishes combos">
@@ -55,7 +68,7 @@
 
     </footer>
 
-    <script src="../js/data.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="../js/menuP.js"></script>
 
 </body>

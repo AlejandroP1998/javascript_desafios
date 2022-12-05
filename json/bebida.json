@@ -1,0 +1,74 @@
+[
+    {
+        "sku": 41,
+        "nombre": "Jarra de Pepsi",
+        "precio": 50,
+        "descripcion": "Jarra de gaseosa Pepsi (2L).",
+        "url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRieaXCZnaEvVxCZVgv123IlJlzOXC7XpV3DeEt8qcaZZaoiVw7",
+        "tipo": "Sodas",
+        "cantidad": 1
+    },
+    {
+        "sku": 42,
+        "nombre": "Jarra de té frio",
+        "precio": 10,
+        "descripcion": "Jarra de té frio a su elección (2L).",
+        "url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS9wDJMj-sbX4WBOzv8yU2w5jENUcpuCJlJghSs8bmvZ5XZLppJ",
+        "tipo": "Bebida natural",
+        "cantidad": 1
+    },
+    {
+        "sku": 43,
+        "nombre": "Pichel de cerveza",
+        "precio": 100,
+        "descripcion": "Cerveza a su elección, varidad de marcas (2L).",
+        "url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQeJA2mZ0aHmpgOW7pp0OJma98p6Z4SML4ST1tCmn468GpN3lY5",
+        "tipo": "Bebidas alcoholicas",
+        "cantidad": 1
+    },
+    {
+        "sku": 44,
+        "nombre": "Jarra de fresco de cereza",
+        "precio": 150,
+        "descripcion": "Fresco de cereza natural (2L).",
+        "url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRz0yxTUCyklwvv0XsdmirOxS-I8AJJr9YXdGHYHdsbXGK6oct0",
+        "tipo": "Bebida natural",
+        "cantidad": 1
+    },
+    {
+        "sku": 45,
+        "nombre": "Jarra de soda sabor chicle",
+        "precio": 20,
+        "descripcion": "Jarra de gaseosa sabor chicle (2L).",
+        "url": "https://imgs.search.brave.com/oqikXDdmLZo8D43IcaC3pFbPP-RKPkh3Y4OT20j83iI/rs:fit:768:574:1/g:ce/aHR0cHM6Ly9qYXBv/bnBvcC5qYXBvbnNo/b3AuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDE2LzA2L2dl/bGF0aW5hLWJhcnIt/YnViYmxlZ3VtLWph/cG9uc2hvcDE2LTc2/OHg1NzQucG5n",
+        "tipo": "Sodas",
+        "cantidad": 1
+    },
+    {
+        "sku": 46,
+        "nombre": "Te de manzanilla",
+        "precio": 7,
+        "descripcion": "Delicioso te de manzanilla 100% natural (2L).",
+        "url": "https://imgs.search.brave.com/T3N_5omTxMoyyD5lpXHjfhpYpVK1z09zIUA2hhKlwxI/rs:fit:1200:1080:1/g:ce/aHR0cDovL3d3dy50/ZWxlbXVuZG8uY29t/L3NpdGVzL25iY3V0/ZWxlbXVuZG8vZmls/ZXMvaW1hZ2VzL2Fy/dGljbGUvY292ZXIv/MjAxNS8wNS8yNi90/ZS15LWZsb3Jlcy1k/ZS1tYW56YW5pbGxh/LmpwZw",
+        "tipo": "Bebida natural",
+        "cantidad": 1
+    },
+    {
+        "sku": 47,
+        "nombre": "Vino",
+        "precio": 500,
+        "descripcion": "Vino a su elección, varidad de marcas (2L).",
+        "url": "https://imgs.search.brave.com/cu0Hp8cTQtchRc_HGe3Q7LL0dHVak8dlDVmyzd4FtwQ/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/ZnJhbmNvZXNwYW5v/bGFzLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvYyVDMyVCM21v/LWVsZWdpci11bi1i/dWVuLXZpbm8tc2Nh/bGVkLmpwZw",
+        "tipo": "Bebidas alcoholicas",
+        "cantidad": 1
+    },
+    {
+        "sku": 48,
+        "nombre": "Jarra de fresco de naranja",
+        "precio": 150,
+        "descripcion": "Fresco de naranja natural (2L).",
+        "url": "https://imgs.search.brave.com/wCVenBBZCD7YUylrAOX2OuqrYeVUPXv8aeEYGbicca8/rs:fit:1200:1080:1/g:ce/aHR0cHM6Ly9tZWRp/YS5ncS5jb20ubXgv/cGhvdG9zLzVlMzFk/NDAzMzA5ZjU3MDAw/ODFmYzgyYy8xNjo5/L3dfMTkyMCxjX2xp/bWl0L0dldHR5SW1h/Z2VzLTkwOTYwNDc0/Ni5qcGc",
+        "tipo": "Fresco natural",
+        "cantidad": 1
+    }
+]

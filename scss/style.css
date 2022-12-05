@@ -48,10 +48,6 @@ table {
   border-spacing: 0;
 }
 
-* {
-  background-color: #F2E8CF;
-}
-
 .encabezado {
   height: auto;
   width: 100%;
@@ -123,11 +119,6 @@ hr {
     border-radius: 8px;
     padding: 8px;
   }
-  .nav div .active {
-    border: 1px solid black;
-    border-radius: 8px;
-    padding: 8px;
-  }
 }
 @media (max-width: 768px) {
   .nav {
@@ -178,6 +169,12 @@ hr {
   padding: 20px 0 20px 0;
   background-color: #144631;
   text-transform: uppercase;
+}
+
+.botonL {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
@@ -276,27 +273,6 @@ hr {
     margin-top: 20px;
     width: 100%;
   }
-}
-
-.anuncio {
-  background-image: url(../assets/img/combo1.jpg);
-  background-size: 100% 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: start;
-}
-.anuncio h2 {
-  color: #F2E8CF;
-  font-family: "Libre Baskerville", serif;
-  font-size: 2rem;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  background-color: rgba(20, 70, 49, 0.8509803922);
-  text-align: center;
-  line-height: 2;
-  padding: 10px;
 }
 
 footer {
@@ -415,7 +391,7 @@ footer div img:hover {
   align-items: center;
   justify-content: center;
 }
-.ordenar a {
+.ordenar button {
   padding: 30px 0 30px 0;
   width: 100vw;
   background-color: red;
@@ -424,4 +400,65 @@ footer div img:hover {
   text-decoration: none;
   font-size: 3rem;
   font-family: "Libre Baskerville", serif;
+}
+
+.filtro {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.filtro label {
+  font-family: "Libre Baskerville", serif;
+  color: #144631;
+  font-size: 3rem;
+}
+.filtro select {
+  border-radius: 8px;
+  font-size: 1.5rem;
+  background-color: #144631;
+  color: #F2E8CF;
+}
+
+.icono {
+  width: 5vw;
+}
+
+#botonesSR {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#botonesSR img {
+  width: 2vw;
+  height: auto;
+  border: 0;
+}
+#botonesSR img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+#botonesSR p {
+  font-size: 1.5vw;
+}
+
+.cB {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cB button {
+  width: 40vw;
+  font-family: "Libre Baskerville", serif;
+  font-size: 3vw;
+}
+.cB #vaciar {
+  background-color: red;
+  color: #fff;
+}
+.cB #regresar {
+  background-color: #144631;
+  color: #fff;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

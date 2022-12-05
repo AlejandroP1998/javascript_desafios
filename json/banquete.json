@@ -1,0 +1,74 @@
+[
+    {
+        "sku": 25,
+        "nombre": "Pollo entero asado",
+        "precio": 1110.5,
+        "descripcion": "Pollo entero asado al carbon, con ensalada y jarra de la bebida de su elección.",
+        "url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSM0Orza6_4U4YAM-oRXYlNuk2T5YpiesIB_8HZOuF_Pnrv_ocq",
+        "tipo": "Comida campestre",
+        "cantidad": 1
+    },
+    {
+        "sku": 26,
+        "nombre": "Super combo de hamburguesas",
+        "precio": 750,
+        "descripcion": "Combo de hamburguesas XL, con papas fritas y la bebida de su elección.",
+        "url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTZmXhvweIyEYyv8qC1ahbc3NiPeLf9vZnx0EgNCnHwPmDRAGyC",
+        "tipo": "Comida rapida",
+        "cantidad": 1
+    },
+    {
+        "sku": 27,
+        "nombre": "Parrillada",
+        "precio": 3100,
+        "descripcion": "Variedad de carnes, asadas al termino de su elección.",
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd1H7yLVL9QQqWfKql5CCtzKjd1g7mAAiTeuG1I08PcwqYL2u1",
+        "tipo": "Comida campestre",
+        "cantidad": 1
+    },
+    {
+        "sku": 28,
+        "nombre": "Lasagna entera",
+        "precio": 1150,
+        "descripcion": "Pirex de nuestra lasagna entera roja, variedad de quesos y salsa con especias.",
+        "url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR2CEX1ZOjLkMS8-y-u7dDXrK_tjKwHJR3Z-EYTbAbbIOT2NvA7",
+        "tipo": "Comida italiana",
+        "cantidad": 1
+    },
+    {
+        "sku": 29,
+        "nombre": "Hot Dogs",
+        "precio": 700.5,
+        "descripcion": "10 Hot Dogs con variedad de embutidos y acompañamientos.",
+        "url": "https://imgs.search.brave.com/9t-j840pY7eGmEsB7TR9Aei5nmfIwOMMPaAb1LAx9Us/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93d3cu/cmVjaXBlbWFzdGVy/cy5pbi93cC1jb250/ZW50L3VwbG9hZHMv/MjAxNC8wMy9EU0Mw/MjI4MS5qcGc",
+        "tipo": "Comida rapida",
+        "cantidad": 1
+    },
+    {
+        "sku": 30,
+        "nombre": "Ensalada rusa",
+        "precio": 350,
+        "descripcion": "Ensalada con variedad de verduras y pollo bañados en una salsa especial.",
+        "url": "https://imgs.search.brave.com/NpQFwmFhgwopZWXK0B8lX4jPcQVThexuAkwcAO78rSM/rs:fit:1000:750:1/g:ce/aHR0cHM6Ly9jZG4u/ZWxjb2NpbmVyb2Nh/c2Vyby5jb20vaW1h/Z2VuL3JlY2V0YS8x/MDAwLzIwMTYtMDUt/MjMtMTctMjctNTYv/ZW5zYWxhZGlsbGEt/cnVzYS5qcGVn",
+        "tipo": "Comida campestre",
+        "cantidad": 1
+    },
+    {
+        "sku": 31,
+        "nombre": "Rabiolis",
+        "precio": 750,
+        "descripcion": "Rabiolis con variedad de verduras con salsa especial.",
+        "url": "https://imgs.search.brave.com/5EwqeoaI0x2KC_sO01QueO0SBSfIK5oSExIm1b9Kduk/rs:fit:1200:720:1/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS93/anh3cEtYY09OUS9t/YXhyZXNkZWZhdWx0/LmpwZw",
+        "tipo": "Comida italiana",
+        "cantidad": 1
+    },
+    {
+        "sku": 32,
+        "nombre": "Papas locas",
+        "precio": 250,
+        "descripcion": "Bandeja de papas fritas al estilo de la locura.",
+        "url": "https://imgs.search.brave.com/Yr6ssDcEHBZMNbexo2xIjH5awIqFRps90_8bfvGSu0M/rs:fit:720:455:1/g:ce/aHR0cHM6Ly9jb21p/ZGFlY3VhdG9yaWFu/YS5jb20uZXMvd3At/Y29udGVudC91cGxv/YWRzLzIwMjAvMDEv/cGFwYXMtbG9jYXMt/NzIweDQ1NS5wbmc",
+        "tipo": "Comida rapida",
+        "cantidad": 1
+    }
+]

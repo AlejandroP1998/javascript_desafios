@@ -1,0 +1,74 @@
+[
+    {
+        "sku": 33,
+        "nombre": "Pizza italiana",
+        "precio": 750.5,
+        "descripcion": "Pizza italiana, especialidad del chef(10 porciones).",
+        "url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQ7TIxGvrB8-PMF0zL00kpSP5znTssN-_9NaVPq6CzbKkTCdWzm",
+        "tipo": "Comida italiana",
+        "cantidad": 1
+    },
+    {
+        "sku": 34,
+        "nombre": "Pasta al pesto",
+        "precio": 450,
+        "descripcion": "Pasta al pesto con varidad de especias Platillo con 5 estrellas.",
+        "url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTRqCouiwGZGaEvae8smbj6Hpy0aFLL9I8ZznLxm-7DEOHOZuKr",
+        "tipo": "Comida italiana",
+        "cantidad": 1
+    },
+    {
+        "sku": 35,
+        "nombre": "Camarones al ajillo",
+        "precio": 1100,
+        "descripcion": "Camarones al ajillo con variedad de especias Platillo 5 estrellas.",
+        "url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSPqir8PDuZ1Ewvq5V4X7a-Kp_P4H9nKAr6uZz1Jkl4MccaF49m",
+        "tipo": "Mariscos",
+        "cantidad": 1
+    },
+    {
+        "sku": 36,
+        "nombre": "Sushi variedad",
+        "precio": 550,
+        "descripcion": "Variedad de sushi con salsa de anguila Platillo 5 estrellas.",
+        "url": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQJMiyjgoZXQYYzGuPUuPRptKWRJu2pG9GllQdXnw9lSaloej2S",
+        "tipo": "Comida oriental",
+        "cantidad": 1
+    },
+    {
+        "sku": 37,
+        "nombre": "Pizza variedad de carnes",
+        "precio": 550.5,
+        "descripcion": "Pizza con variedad de carnes y embutidos, especialidad del chef(10 porciones).",
+        "url": "https://imgs.search.brave.com/yTYcvvPkd7vQMpQ2KEZxBKj3BEjDFf_qH3JSRlFTfwI/rs:fit:640:360:1/g:ce/aHR0cHM6Ly93d3cu/cmVjZXR1bS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDgvcGl6emEtMjg2/OTkzXzY0MC5qcGc",
+        "tipo": "Comida italiana",
+        "cantidad": 1
+    },
+    {
+        "sku": 38,
+        "nombre": "Pasta al limone",
+        "precio": 450,
+        "descripcion": "Pasta al limone con varidad de especias Platillo con 5 estrellas.",
+        "url": "https://imgs.search.brave.com/nORMs1NHKc1oY2tsbO1obyMPHVaqWi7lupXQGeXnPLg/rs:fit:1200:800:1/g:ce/aHR0cHM6Ly93d3cu/cmljZXR0YXNwcmlu/dC5pdC93cC1jb250/ZW50L3VwbG9hZHMv/MjAxOS8wOS9pU3Rv/Y2stODIxMDYwMjYw/LW1pbi5qcGc",
+        "tipo": "Comida italiana",
+        "cantidad": 1
+    },
+    {
+        "sku": 39,
+        "nombre": "Camarones a la diabla",
+        "precio": 1573.32,
+        "descripcion": "Camarones a la diabla con variedad de especias Platillo 5 estrellas.",
+        "url": "https://imgs.search.brave.com/N-44OVnsAE73XNy2byJslgg_sFHH7LnDETD-j5AHRjw/rs:fit:1200:1200:1/g:ce/aHR0cDovL21pbHJl/Y2V0YXMubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE1LzA1/L0NhbWFyb25lcy1h/LWxhLURpYWJsYS0y/LmpwZw",
+        "tipo": "Mariscos",
+        "cantidad": 1
+    },
+    {
+        "sku": 40,
+        "nombre": "Ramen",
+        "precio": 750,
+        "descripcion": "Ramen con variedad de carnes y especias Platillo 5 estrellas.",
+        "url": "https://imgs.search.brave.com/XtRQtqqKAuAw2eCFL9Li8gK_U5-RZa3bHKUsVwjGcN4/rs:fit:768:768:1/g:ce/aHR0cHM6Ly9zdGF0/aWMuaG9yaXpvbnRp/bWVzLmNvbS93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMS8wNi8y/NzE3NDU1Mi9TcGlj/eS1NaXNvLVJhbWVu/LTIwMjEwNTI3MTc0/NTUyLTIwMjEwNTI3/MTc0NTUyLTc2OHg3/NjguanBlZw",
+        "tipo": "Comida oriental",
+        "cantidad": 1
+    }
+]

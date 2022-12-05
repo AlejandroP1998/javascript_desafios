@@ -1,0 +1,74 @@
+[
+    {
+        "sku": 17,
+        "nombre": "Pie de manzana",
+        "precio": 130.5,
+        "descripcion": "Pie de manzana, especialidad del chef.(4 porciones)",
+        "url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQEj3Lfa4zduBrskryNazTsuf0PHK8Q2OB_TUOwNPSqg2StwQ1w",
+        "tipo": "Pie",
+        "cantidad": 1
+    },
+    {
+        "sku": 18,
+        "nombre": "Rollos de canela",
+        "precio": 250,
+        "descripcion": "Deliciosos rollos de canela con variedad de salsas dulces.(4 rollos)",
+        "url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTlrhN9MUvQAclB-Yn4iOLRqqPco-PuW9bLGo2VqoPupOrtzHGF",
+        "tipo": "Especialidad",
+        "cantidad": 1
+    },
+    {
+        "sku": 19,
+        "nombre": "Pie de queso",
+        "precio": 215,
+        "descripcion": "Pie de queso, especialidad del chef.(4 porciones)",
+        "url": "https://static.onecms.io/wp-content/uploads/sites/21/2017/03/29/pay-de-queso-al-horno.jpg-2000.jpg",
+        "tipo": "Pie",
+        "cantidad": 1
+    },
+    {
+        "sku": 20,
+        "nombre": "Pie de frutos rojos",
+        "precio": 250,
+        "descripcion": "Pie de frutos rojos, especialidad del chef.(4 porciones)",
+        "url": "https://crudoycocido.com/wp-content/uploads/2022/02/PIE-FRUTOS-ROJOS-27-1.jpg",
+        "tipo": "Pie",
+        "cantidad": 1
+    },
+    {
+        "sku": 21,
+        "nombre": "Tarta de frutos rojos",
+        "precio": 170.5,
+        "descripcion": "Tarta de frutos rojos, especialidad del chef",
+        "url": "https://imgs.search.brave.com/CNYcSAU_7zupUj2G5Nwh6Waf2hu9_Kpq1AzCuCgH2Wg/rs:fit:1191:881:1/g:ce/aHR0cHM6Ly9jZG4y/LmNvY2luYWRlbGly/YW50ZS5jb20vc2l0/ZXMvZGVmYXVsdC9m/aWxlcy9pbWFnZXMv/MjAxNi8xMi9wb3N0/cmVkZW5hdmlkYWQu/anBn",
+        "tipo": "Especialidad",
+        "cantidad": 1
+    },
+    {
+        "sku": 22,
+        "nombre": "Helado de fresa",
+        "precio": 20,
+        "descripcion": "Delicioso helado natural de fresa.",
+        "url": "https://imgs.search.brave.com/ybGyRwvdh50cj9lUtonEmgOzMq--me38BNEzftGGkI0/rs:fit:1200:740:1/g:ce/aHR0cHM6Ly9yZWNl/dGFzdGlwcy5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMTkv/MDkvSGVsYWRvLWRl/LUZyZXNhLTEuanBn",
+        "tipo": "Helado",
+        "cantidad": 1
+    },
+    {
+        "sku": 23,
+        "nombre": "Helado de chocolate",
+        "precio": 25,
+        "descripcion": "Delicioso helado de chocolate importado.",
+        "url": "https://imgs.search.brave.com/frPPjE-LY_vjYwwf9-SmOp5V7zwfoL7AqsvjbtkfXX4/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9kZWNo/b2NvbGF0ZS5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMTMv/MDkvaGVsYWRvLWRl/LWNob2NvbGF0ZS1p/bWFnZW4uanBn",
+        "tipo": "Helado",
+        "cantidad": 1
+    },
+    {
+        "sku": 24,
+        "nombre": "Helado de vainilla",
+        "precio": 30,
+        "descripcion": "Delicioso helado natural de vainilla.",
+        "url": "https://imgs.search.brave.com/whghc2GzYjDGP1pKJ37RxQUspkGYCLN4LAaFFioa_gs/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly8xLmJw/LmJsb2dzcG90LmNv/bS8tZG1pb0JpU2tv/UjQvVTZIMTNsamFH/eUkvQUFBQUFBQUF6/U1UvUzJhMXY3dmMy/YUUvczE2MDAvRFND/RjUwOTAuSlBH",
+        "tipo": "Helado",
+        "cantidad": 1
+    }
+]

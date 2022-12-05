@@ -23,23 +23,31 @@
         <h2 id="bienvenida"></h2>
         <hr>
         <div>
-            <li><a href="./entradas.html" target="_blank">Entradas</a></li>
-            <li><a href="./postres.html" target="_blank">Postres</a></li>
-            <li><a href="./banquetes.html" target="_blank">Banquetes</a></li>
-            <li><a href="./especialidades.html" target="_blank">Especialidades</a></li>
-            <li><a href="./bebidas.html" target="_blank">Bebidas</a></li>
+            <li><a href="./entradas.html">Entradas</a></li>
+            <li><a href="./postres.html">Postres</a></li>
+            <li><a href="./banquetes.html">Banquetes</a></li>
+            <li><a href="./especialidades.html">Especialidades</a></li>
+            <li><a href="./bebidas.html">Bebidas</a></li>
         </div>
     </nav>
 
     <hr>
 
-    <section class="main_dishes combos">
-        <!-- Datos implementados desde menu.js -->
-    </section>
+    <form class="filtro">
+        <label>Filtro</label>
+        <select name="filtro" id="filtro">
+            <option value="Seleccionar" selected disabled hidden>Seleccionar</option>
+            <option value="Comida rapida">Comida rapida</option>
+            <option value="Comida campestre">Comida campestre</option>
+            <option value="Mariscos">Mariscos</option>
+            <option value="Sin filtro">Sin filtro</option>
+        </select>
+    </form>
+
     <hr>
 
-    <section class="anuncio">
-        <h2>Platillos italianos<br>de alta cocina</h2>
+    <section class="main_dishes combos">
+        <!-- Datos implementados desde menu.js -->
     </section>
 
     <hr>
@@ -54,7 +62,8 @@
             <a href="https://wa.me/50256276439" target="_blank"><img src="../assets/img/whatsapp.png" alt="whatsapp"></a>
         </div>
     </footer>
-    <script src="../js/data.js"></script>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="../js/menu.js"></script>
 </body>
 

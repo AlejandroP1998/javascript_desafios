@@ -1,0 +1,74 @@
+[
+    {
+        "sku": 9,
+        "nombre": "Sopa de papa",
+        "precio": 110.5,
+        "descripcion": "Sopa de papa, especialidad del chef.",
+        "url": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT0GPWsIPgHS-OyGTeLOznnBCHmG3O7-Ex1STFZQ52IMbDfiq5a",
+        "tipo": "Sopas",
+        "cantidad": 1
+    },
+    {
+        "sku": 10,
+        "nombre": "Ensalada",
+        "precio": 50,
+        "descripcion": "Ensalada variedad de vegetales, con salsa agridulce.",
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcyirIMGs5QeqdFZYmZEMvdVBYJN9cJW7H0kyItFU6T2X0xARB",
+        "tipo": "Ensaladas",
+        "cantidad": 1
+    },
+    {
+        "sku": 11,
+        "nombre": "Sopa de tomate",
+        "precio": 100,
+        "descripcion": "Sopa de tomate con variedad de especias.",
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcyx3TMBVmXZHASnL_7IzNubX2NvSXIN_jcO29yZeh-ZyI4CkV",
+        "tipo": "Sopas",
+        "cantidad": 1
+    },
+    {
+        "sku": 12,
+        "nombre": "Koctel de frutas",
+        "precio": 150,
+        "descripcion": "Variedad de frutas con miel de abeja pura.",
+        "url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS0KS_aQuCaLLmqjv5oeAt_0Bt0BUtJNtBUMyz9FaWVhwhvvEkE",
+        "tipo": "Fruta",
+        "cantidad": 1
+    },
+    {
+        "sku": 13,
+        "nombre": "Crocketas de berenjena",
+        "precio": 145.5,
+        "descripcion": "Deliciosas corcketas de berenjena empanizadas.",
+        "url": "https://imgs.search.brave.com/6YCIWLdU9MfJRxrw-XEVujpuD4IFhggrmh1hR_gkK9w/rs:fit:1200:720:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzc3L2E0/LzEzLzc3YTQxMzk0/ZWJiNTRjNzE3YjU5/YmRiMmNjYjljMzY4/LmpwZw",
+        "tipo": "Fruta",
+        "cantidad": 1
+    },
+    {
+        "sku": 14,
+        "nombre": "Minitartas de fresa",
+        "precio": 250,
+        "descripcion": "Minitarta de fresa especialidad del chef.",
+        "url": "https://imgs.search.brave.com/DMT_6f60EOfTg1BqBB_w3lgYTm4Re_RMgv_2iJl2exU/rs:fit:1200:1074:1/g:ce/aHR0cDovLzMuYnAu/YmxvZ3Nwb3QuY29t/Ly0tbTFCaWFOeEU1/by9VbHhkOWdEelpm/SS9BQUFBQUFBQUFV/NC9sc2JYcmpCOERX/NC9zMTYwMC9UYXJ0/YWxldGFzK2ZyZXNh/cyt5K2NyZW1hK2Rl/K0xhZHVyJUMzJUE5/ZSswMDMuSlBH",
+        "tipo": "Fruta",
+        "cantidad": 1
+    },
+    {
+        "sku": 15,
+        "nombre": "Ensalada de pollo",
+        "precio": 140,
+        "descripcion": "Deliciosa ensalada de pollo con variedad de salsas.",
+        "url": "https://imgs.search.brave.com/ujnpXGYwl2MbWFWyRREvW_Z8CB5BGddcCmogS0-naik/rs:fit:1200:900:1/g:ce/aHR0cHM6Ly8xLmJw/LmJsb2dzcG90LmNv/bS8tdll4cmpwdkxN/dWcvV1FmbXhoQ0x5/Z0kvQUFBQUFBQUFY/bHcvRkRkTkZkWnpL/dnNZUzg5Z29FdHRw/cUIzQ0ZoZEhtck5n/Q0xjQi9zMTYwMC9F/bnNhbGFkYSUyQmRl/JTJCcG9sbG8lMkJj/b24lMkJzYWxzYSUy/QnJvc2ElMkJsaWdl/cmElMkJZVDIuanBn",
+        "tipo": "Ensaladas",
+        "cantidad": 1
+    },
+    {
+        "sku": 16,
+        "nombre": "Sopa de tortilla",
+        "precio": 50,
+        "descripcion": "Deliciosa sopa con tortilla de maiz.",
+        "url": "https://imgs.search.brave.com/VZemKeEDcr5dMHqtfLwCJoqEtiyKKglncCeDZnDUFe0/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9mdGht/Yi50cW4uY29tL2Zu/aWhjT2YyUjVjVU1R/Yy14LU05cC1jeWlO/QT0vMzY0NHgyNzMz/L2ZpbHRlcnM6Zmls/bChhdXRvLDEpL3Nv/cGEtZGUtdG9ydGls/bGEtNDcyMjE2MzU5/LTU4OGEzNjQ1M2Rm/NzhjYWViY2YwOTFm/MS5qcGc",
+        "tipo": "Sopas",
+        "cantidad": 1
+    }
+]

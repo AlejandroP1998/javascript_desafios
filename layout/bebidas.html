@@ -27,7 +27,7 @@
             <li><a href="./postres.html">Postres</a></li>
             <li><a href="./banquetes.html">Banquetes</a></li>
             <li><a href="./especialidades.html">Especialidades</a></li>
-            <li><a class="active" href="./bebidas.html">Bebidas</a></li>
+            <li><a href="./inicio.html">Inicio</a></li>
         </div>
     </nav>
 
@@ -35,6 +35,19 @@
     <hr>
     <h1 class="titulo">Bebidas</h1>
     <hr>
+    <hr>
+
+    <form class="filtro">
+        <label>Filtro</label>
+        <select name="filtro" id="filtro">
+            <option value="Seleccionar" selected disabled hidden>Seleccionar</option>
+            <option value="Sodas">Sodas</option>
+            <option value="Bebida natural">Bebidas naturales</option>
+            <option value="Bebidas alcoholicas">Bebidas alcoholicas</option>
+            <option value="Sin filtro">Sin filtro</option>
+        </select>
+    </form>
+
     <hr>
 
     <section class="main_dishes combos">
@@ -54,7 +67,7 @@
         </div>
     </footer>
 
-    <script src="../js/data.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="../js/menuBe.js"></script>
 </body>
 

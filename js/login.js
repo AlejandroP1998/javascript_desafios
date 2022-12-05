@@ -2,9 +2,6 @@
 //Informacion del cliente
 const cliente = new Object;
 
-//label de mensaje si no llena los campos
-const mensaje = document.querySelector("#mensaje");
-
 //Eventos al pasar el mouse sobre los inputs tipo text
 // -> Boton del nombre
 const text1 = document.getElementById("nombre");
@@ -36,7 +33,7 @@ text2.onmouseout = () => {
 // -> Boton de envio
 const enviar = document.getElementById("enviar");
 
-enviar.onmouseover = ()=> {
+enviar.onmouseover = () => {
     enviar.style.backgroundColor = "red";
     enviar.style.color = "#fff";
 }
@@ -47,10 +44,13 @@ enviar.onmouseout = () => {
 }
 
 enviar.onclick = () => {
+
     if (!text1.value || !text2.value) {
-        mensaje.textContent = "Debe llenar todos los campos";
-        mensaje.style.backgroundColor = "red";
-        mensaje.style.color = "#fff";
+        Swal.fire({
+            icon: 'error',
+            title: 'No llenaste todos los campos',
+            text: 'Por favor revisa que todos los campos esten llenos para proceder al menu'
+        })
     } else {
         cliente.nombre = text1.value;
         cliente.apellido = text2.value;
@@ -59,7 +59,17 @@ enviar.onclick = () => {
         //array de compras en el carrito
         let carrito = [];
         localStorage.setItem("carrito", JSON.stringify(carrito));
-        location.href = "./layout/inicio.html";
+        setTimeout(()=>{
+            Swal.fire({
+                icon: 'success',
+                title: 'Informacion aceptada',
+                showConfirmButton: false
+            })
+        },0);
+
+        setTimeout(()=>{
+            location.href = "./layout/inicio.html"
+        },2000);
     }
 
 }

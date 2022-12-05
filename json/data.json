@@ -1,0 +1,74 @@
+[
+    {
+        "sku": 1,
+        "nombre": "Super Hamburguesa",
+        "precio": 300,
+        "descripcion": "Super Hamburguesa, variedad de carnes, salsas, especias y vegetales.",
+        "url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTMW3ydBS0ClnnQpM0IB_oCB3VcLf3f98EVUIDFIJaMpqwbuN6Y",
+        "tipo": "Comida rapida",
+        "cantidad": 1
+    },
+    {
+        "sku": 2,
+        "nombre": "Pollo asado",
+        "precio": 500,
+        "descripcion": "Pollo a las brasas, preservado con todos sus jugos acompañado con variedad de salsas.",
+        "url": "https://dondejuana.com/static/productos/xxl/promo-pollo-a-la-brasa-dj-4.jpg",
+        "tipo": "Comida campestre",
+        "cantidad": 1
+    },
+    {
+        "sku": 3,
+        "nombre": "Mariscada",
+        "precio": 680,
+        "descripcion": "Variedad de mariscos, variedad de preparaciones gourmet.",
+        "url": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ8sucVvSoY0BMtb3naRE-5CnaVmpFONDnxCxZV9H6iUJkaNA-o",
+        "tipo": "Mariscos",
+        "cantidad": 1
+    },
+    {
+        "sku": 4,
+        "nombre": "Caldo de mariscos",
+        "precio": 420,
+        "descripcion": "Variedad de mariscos en un delicioso caldo con variedad de especias.",
+        "url": "https://www.melarossa.it/wp-content/uploads/2020/12/zuppa-di-pesce-ricetta.jpg",
+        "tipo": "Mariscos",
+        "cantidad": 1
+    },
+    {
+        "sku": 5,
+        "nombre": "Hot Dogs",
+        "precio": 235,
+        "descripcion": "Deliciosos Hot Dogs preparados con variedad de acompañamientos.",
+        "url": "https://imgs.search.brave.com/nhAAYaeC4O5FLc3hQee82H91ixZoE6lYU7JECypAdmw/rs:fit:1200:826:1/g:ce/aHR0cDovL2Q2dnJ0/emRsYmFua24uY2xv/dWRmcm9udC5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMTgv/MDUvaVN0b2NrLTYz/ODYxNTM4Ni5qcGc",
+        "tipo": "Comida rapida",
+        "cantidad": 1
+    },
+    {
+        "sku": 6,
+        "nombre": "Super papas",
+        "precio": 200,
+        "descripcion": "Deliciosas papas a la francesa con variedad de salsas y acompañamientos.",
+        "url": "https://imgs.search.brave.com/ek6VLF8l7HGvojmH083gPQ3jBpFWQSzEvYqpaQ30o88/rs:fit:1024:683:1/g:ce/aHR0cHM6Ly93d3cu/ZmFzdGZvb2RhbmRy/b2NrLmNvbS9ibG9n/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDE3/LzA4L0ZpZXN0YS0x/MDI0eDY4My5qcGc",
+        "tipo": "Comida rapida",
+        "cantidad": 1
+    },
+    {
+        "sku": 7,
+        "nombre": "Sandwich campestre",
+        "precio": 100,
+        "descripcion": "Sandwich con variedad de carnes 100% organicas, variedad de verduras y salsas.",
+        "url": "https://imgs.search.brave.com/S5_Ski5KuoGkxHICE9WDJvwHCtP3TPr-hQa36PmoMP4/rs:fit:1200:830:1/g:ce/aHR0cHM6Ly93d3cu/bWVkaXNpdGUuZnIv/ZmlsZXMvaW1hZ2Vz/L2FydGljbGUvNC82/LzEvNTQ5MTE2NC92/aWduZXR0ZS1mb2N1/cy5qcGc",
+        "tipo": "Comida campestre",
+        "cantidad": 1
+    },
+    {
+        "sku": 8,
+        "nombre": "Langosta marinada",
+        "precio": 700,
+        "descripcion": "Deliciosa langosta preparada por el chef principal (especialidad).",
+        "url": "https://imgs.search.brave.com/leI4ZomPU1HVzdzI4nZ8y2g7imqvBmOlcW6UwBdcW7I/rs:fit:1000:664:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2ZiLzU0/LzVlL2ZiNTQ1ZWY1/YzU0ZjEwNGE1Y2Yy/YTQwOGY0MGEzYWYy/LmpwZw",
+        "tipo": "Mariscos",
+        "cantidad": 1
+    }
+]
